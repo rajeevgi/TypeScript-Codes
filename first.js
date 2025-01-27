@@ -1,3 +1,4 @@
+"use strict";
 function greeter(person) {
     return "Hello," + person;
 }
@@ -8,6 +9,7 @@ function addTwoNum(a, b) {
 }
 var sum = addTwoNum(5, 2);
 console.log("The sum of two numbers is :" + sum);
+// Typescript type annotations example
 function display(id, name) {
     console.log("Id:" + id + ", " + "Name :" + name);
 }

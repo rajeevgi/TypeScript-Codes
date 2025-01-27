@@ -1,16 +1,17 @@
+"use strict";
 // TypeScript Number.
 // Example 1 : toExponential()
-var num1 = 12;
+let num1 = 12;
 console.log("The toExponential() value is :" + num1.toExponential());
 console.log("The toExponential() value is :" + num1.toExponential(2));
 // Example 2 : toFixed()
 console.log("The toFixed() value is : " + num1.toFixed());
 console.log("The toFixed() value is : " + num1.toFixed(3));
 // Example 3 : toLocaleString()
-var num2 = 12334.353;
+let num2 = 12334.353;
 console.log("The toLocaleString() value is : " + num2.toLocaleString());
 // Example 4 : toPrecision()
-var num3 = 12.534;
+let num3 = 12.534;
 console.log("The toPrecision() value is : " + num3.toPrecision(1));
 console.log("The toPrecision() value is : " + num3.toPrecision(3));
 // Example 5 : toString()
@@ -24,7 +25,7 @@ console.log("The valueOf() value is : " + num3.valueOf());
    4. nested if statement.
 */
 // Example 1 
-var age = 18;
+let age = 18;
 if (age >= 18) {
     console.log("Eligible for voting.");
 }
@@ -32,7 +33,7 @@ else {
     console.log("Not eligible.");
 }
 // Example 2
-var a = 10, b = 20;
+let a = 10, b = 20;
 if (a > b) {
     console.log(a + " is greater than " + b);
 }
@@ -43,7 +44,7 @@ else {
     console.log("Invalid numbers.");
 }
 // Example 3 
-var c = 30;
+let c = 30;
 if (a > b && a > c) {
     console.log(a + " is greater than " + b + " and " + c);
 }
@@ -57,7 +58,7 @@ else {
     console.log("Invalid Numbers.");
 }
 // Example 4
-var marks = 98;
+let marks = 98;
 if (marks < 35) {
     console.log("Fail.");
 }
@@ -80,7 +81,7 @@ else {
     console.log("Invalid Marks.");
 }
 // Switch Statement Example
-var grade = 'A+';
+let grade = 'A+';
 switch (grade) {
     case 'A+':
         console.log("Marks is between 90 and 100, Excellent.");

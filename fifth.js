@@ -1,6 +1,7 @@
+"use strict";
 // TypeScript Union
 // Example 1 : Creating simple variable with union pipe.
-var value;
+let value;
 value = 120;
 console.log("The Numeric value of Value is : ", value);
 value = "Welcome to India";
@@ -17,14 +18,14 @@ function displayValue(value) {
 displayValue(123);
 displayValue("Rajeev");
 // Example 3 : Passing Union type to Arrays.
-var arrType;
+let arrType;
 arrType = [1, 2, 3, 4, 5];
 console.log("The Numeric type array:");
-for (var i = 0; i < arrType.length; i++) {
+for (let i = 0; i < arrType.length; i++) {
     console.log("\t" + arrType[i]);
 }
 arrType = ['Mumbai', 'Chennai', 'Kolkata', 'Delhi'];
 console.log("The string type array : ");
-for (var i = 0; i < arrType.length; i++) {
+for (let i = 0; i < arrType.length; i++) {
     console.log("\t" + arrType[i]);
 }

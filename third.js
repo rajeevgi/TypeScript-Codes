@@ -1,8 +1,9 @@
+"use strict";
 // Array Methods Example
 // Example 1 : concat()
-var array1 = [1, 2, 3];
+let array1 = [1, 2, 3];
 console.log("The Array 1 Elements : ", array1);
-var array2 = [4, 5, 6];
+let array2 = [4, 5, 6];
 console.log("The Array 2 Elements : ", array2);
 console.log("The Concatenation elements are : ", array1.concat(array2));
 // Example 2 : pop()
@@ -23,11 +24,11 @@ console.log("The array2 elemets is:", array2);
 console.log("The sliced Elements are : ", array2.slice(0, 2));
 // Example 7 : sort()
 console.log("The array2 elements before sorting : ", array2);
-array2.sort(function (a, b) { return b - a; }); // for descending order.
+array2.sort((a, b) => b - a); // for descending order.
 console.log("The array2 elements after sorting: ", array2);
 // Example 8 : toString()
 console.log("The array 1 before toString() :", array1);
-var toStrValue = array1.toString();
+const toStrValue = array1.toString();
 console.log("The array 1 After toString() :", toStrValue);
 // Example 9 : splice()
 console.log("The Array1 before splice() : ", array1);
