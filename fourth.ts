@@ -1,4 +1,4 @@
-// Tuples Examples
+// Tuples Examples : Tuple are used to store two or more data types of elements. 
 
 // Example 1 : creation of a simple tuple. 
 let Employees = [101,"Rajeev Gupta","Developer", 25];

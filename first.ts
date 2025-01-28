@@ -6,8 +6,8 @@ var user = "Rajeev";
 console.log(greeter(user));
 
 
-function addTwoNum(a,b){
-    return a+b;
+function addTwoNum(a1: number,b1 : number){
+    return a1+b1;
 }
 
 var sum = addTwoNum(5,2);

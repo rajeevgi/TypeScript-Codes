@@ -1,4 +1,4 @@
-// TypeScript Union
+// TypeScript Union : It is used to assign two or more data types to a single variable.
 
 // Example 1 : Creating simple variable with union pipe.
 let value : number | string;
