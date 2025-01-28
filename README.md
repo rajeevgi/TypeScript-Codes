@@ -26,6 +26,8 @@
       <li>Map, Set</li>
       <li>Access modifier, Accessor</li>
       <li>Functions, Arrow Function, OverLoading, Parameter</li>
+      <li>Classes , InterFace and Inheritance.</li>
+      <li>Date Object and Methods</li>
     </ul>
   </div>
 </div>
